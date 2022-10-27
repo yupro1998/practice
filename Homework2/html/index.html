@@ -5,158 +5,105 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 
-    <h1> <i> 
-     Welcome!
-    </i>
-        <hr>
-    </h1>
-    <h2>Log in form 
-
-    </h2>
-    <form action="">
-       
-        <div>
-              <label for="name">
-                Name <br>
-            </label>
-            <input id="name" placeholder="Text your name" type="text">
+<body>
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+                <img src="../img/logo.png" alt="logo"></a>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#"><img src="../img/facebook.png" alt="fb"></a> </li>
+                        <li><a href="#"><img src="../img/twitter.png" alt="twitter"></a> </li>
+                    </ul>
+                </div>
         </div>
-        <div>
-            <label for="password" >Password <br>
-
-            </label>
-            <input id="password" placeholder="Your password" type="password"> <br> <br>
-            <label for="check1">Remember password</label>
-            <input disabled type="radio"> <br>
-            <br><input type="submit"> 
-            <input type="reset">
-        </div> 
-        
-        <div>
-            <label for="name"> <br>
-                Name 
-            </label>
-            <br> <input disabled id="name"  placeholder="Text your name" type="text"> 
-        </div>
-        <div>
-            <label for="password" >Password <br>
-
-            </label>
-            <input disabled id="password" placeholder="Your password" type="password">  <br> <br>
-            <input disabled type="submit">  
-           
-        </div>
-        <div><form>
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" name="fname"><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" name="lname">
-          </form>
-        </div>
-        <div>
-            <h4>
-                Select your country
-            </h4> 
-            <select name="" id="">
-                <option value="01">Ukraine
-                    </option>
-                    <option value="02">USA
-                    </option>
-                    <option value="03">Canada
-                    </option>
-                    <option value="04">France
-                    </option> 
-            </select> <hr>
-            
-        </div>
-        <div>
-            <h4>
-                Choose your area
-            </h4> 
-            <select name="" id="">
-                <option value="01">Europe</option>
-                <option selected value="02">US</option>
-                <option disabled value="03">Asia</option>
-            </select> <hr>
-        </div>
-        <div>
-            <h4>Choose gender
-
+    </header>
+    <section class="email-block">
+        <div class="wrapper">
+            <h3 class="get-text text-center">
+                Get unlimited cloud storage space.
+            </h3>
+            <h4 class="nomore-text text-center">
+                No more worrying.
             </h4>
-            <label for="male">Male</label>
-            <input type="radio" name="gender" id="male">
-            <label for="female">Female</label>
-            <input type="radio" name="gender" id="female">
-        </div>
-        <div>
-            <h4>
-                Text sth...
-            </h4>
-            <label for="email">Your email:</label> <br>
-            <input type="email" id="email" placeholder="Send ur email"> <br><br>
-            <label for="text block">
-
-            </label>
-            <textarea placeholder="Text something" name="" id="text-block" cols="70" rows="10"></textarea>
-        </div>
-<div>
-    <label for="check1">Subscribe on adds 
-
-    </label>
-    <input type="checkbox">
-    <label for="check2">Receive adds on email... 
-
-    </label>
-    <input type="checkbox"> <br>
-</div>
-<div>
-   <br> <label for="addfile">Add file:</label>
-  <input type="file" id="myfile" name="myfile">
-</div>
-<div>
-   <br> <label for="color">color box:</label>
-<input type="color"> 
-</div>
-<div> <label for="Date">Choose date:</label> <br>
-    <input type="date">
-    <input type="datetime-local">
-    <input type="month">
-    <input type="number" min="1" max="3">
-    <input type="range" min="0" max="50">
-    <input type="search">
-    <input type="time">
-    <input type="url">
-    <input type="week">
-</div>
-
-    </form>
-   
-<div>
-    <button>Button</button>
-    <input type="button" onclick="alert('Error')" value="Don't click!">
-    <button>Check google</button>
-    <a href="https://www.google.com/" target="_blank">google page
-       
-    </a>
-    
-    <p>
-        <strong>Image file</strong>
-    </p>
-        <img src="../img/image.jpg" alt="violet sea">
-        <img width="300" height="300" src="../img/flower.jpg">
-    
-        <audio controls>
-            <source src="../mp3/vivaldi.mp3">
-        </audio>
+            <div class="email-input">
+          <form action="">
+            <input type="text" class="email-form" placeholder="Ender your email address">
+            <input type="submit" class="get-button" value="Get an invite">
         
+                </form>
+          </div>
+        </div>
+    </section>
+
+    <section class="unlimited-block">
+        <div class="wrapper">
+<h3 class="unlim-space text-center">
+    Unlimited space.
+</h3>
+<h4 class="unlorem text-center">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius <br>
+    enim in eros elementum tristique. Duis cursus, mi quis viverra ornare
+</h4>
+<div class="infinity text-center">
+    <img src="..//img/infinity-icon.png" alt="infinity">
 </div>
 
-<img src="https://klike.net/uploads/posts/2019-05/1556708032_1.jpg" alt="violet sea">
+        </div>
+    </section>
 
+    <section class="mobile-block">
+        <div class="wrapper">
+            <h3 class="access-text text-center">
+                Mobile Access.
+            </h3>
+            <h4 class="mobile-text text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius<br> enim in eros elementum tristique.
+            </h4>
+            <div class="text-center">
+                <img src="../img/mobile.png">
+            </div>
+        </div>
+    </section>
 
-   
+    <section class="friends-block">
+        <div class="wrapper">
+<h3 class="tell text-center">
+    Tell your friends.
+</h3>
+<h4 class="want text-center">
+    Want more unlimited storage? Refer more friends.
+</h4>
+<input type="submit" class="greybutton" value="...">
+        </div>
+    </section>
+
+    <footer>
+        <div class="wrapper">
+<div class="bot-logo text-center">
+    <img src="../img/logo2.png" alt="logo2">
+</div>
+<div class="bot-links text-center">
+    <ul>
+        <li>
+            <a href="#"><img src="../img/twitter2.png" alt="tw"> </a>
+        </li>
+        <li>
+            <a href="#"><img src="../img/fb2.png" alt="tw"> </a>
+        </li>
+        <li>
+            <a href="#"><img src="../img/mail2.png" alt="tw"> </a>
+        </li>
+    </ul>
+</div>
+        </div>
+    </footer>
+  
 </body>
 </html>
