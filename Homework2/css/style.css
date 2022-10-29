@@ -23,7 +23,8 @@ h4{
     text-align:center;
   }
   header{
-    padding:18px 0 0 23px;
+    padding-top: 18px;
+    padding-bottom: 23px;
   }
   .logo,
   .links{
@@ -45,13 +46,14 @@ h4{
   }
   .email-block{
     background-color: #FAC960;
+    padding-top: 102px;
+    padding-bottom: 117px;
   }
   .get-text{
     color: #8A6D2F;
     font-size: 44px;
     font-weight: normal;
     margin:0;
-    padding-top: 102px;
   }
   .nomore-text{
     color:#8A6D2F;
@@ -61,8 +63,6 @@ h4{
     padding-bottom: 40px;
   }
   .email-input{
-    padding-bottom: 117px;
-    padding-left: 50px;
     margin: 0px;
   }
   .email-form{
@@ -95,6 +95,7 @@ h4{
   .unlimited-block{
     background-color: #F2F2F2;
     padding-top: 77px;
+    padding-bottom: 81px;
   }
   .unlim-space{
     font-size: 37px;
@@ -110,7 +111,7 @@ h4{
 }  
 
 .infinity{
-  padding-bottom: 81px;
+  
   margin-top: 54px;
   
 }
