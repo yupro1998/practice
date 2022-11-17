@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width:100%;
+    padding:12px;
+    margin: auto;
+    background-color:  #E5E5E5;;
+}
+header{
+    width:100%;
+    height: 100px;
+    margin: auto;
+    padding: 12px 16px;
+
+}
+.logo,
+.buy {
+    float:left;
+}
+.menu{
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+   }
+   
+   .menu ul li {
+    display:inline-block
+   }
