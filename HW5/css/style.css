@@ -14,7 +14,6 @@ body{
 h2{
     font-size: 27px;
     font-weight: 600;
-    line-height: 32.4px;
 }
 .container{
     width:1600px;
@@ -143,11 +142,43 @@ nav {
     padding-top: 152px;
     margin: 0 auto;
   }
+
+  h4{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 auto;
+  }
+  .authors>p{
+    color: #575757;
+    padding-top: 12px;
+  }
+
   .text-center{
     text-align: center;
   }
   .mark-gregory{
     display: flex;
-    justify-content: center;
-    
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+    padding-left: 131px;
   }
+  .mark-gregory{
+    position: relative;
+  }
+  .mark{
+    position: absolute;
+    left: 327px;
+    top: 9px;
+  }
+  .graph{
+    position: absolute;
+    left: 327px;
+    top: 40px;
+  }
+  .amet{
+    position: absolute;
+    left: 327px;
+    top: 60px;
+  }
+  
