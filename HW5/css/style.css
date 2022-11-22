@@ -517,23 +517,85 @@ margin: 0 auto;
   }
   .buy-text{
     color: #575757;
+    
   }
   .product-content{
     display: flex;
+    margin-top: 80px;
   }
   .product-block{
     display: flex;
     flex-direction: column;
+    margin-top: 74px;
   }
   .stars{
     display: flex;
+    margin: 0 0 16px;
   }
   .review{
     margin: 0;
   }
   .product-title{
-    margin: 0;
+    margin: 0 0 16px;
     color: #2203E4;
     font-size: 36px;
 
+  }
+  .product-text{
+    font-size: 16px;
+    font-weight: 400;
+    color: #575757; 
+    margin: 0 0 16px;
+  }
+
+  .product{
+    width: 122px;
+    height: 39px;
+    border: none;
+    background-color: #0062FF;
+    color: white;
+  }
+  
+  .product>a:hover{
+    color:rgb(230, 230, 230);
+  }
+
+  .discounts-block{
+    display: flex;
+    flex-direction: column;
+    
+    
+  }
+
+  .off-but{
+    border: none;
+    background-color: #0062FF;
+    color: white;
+    width: 508px;
+height: 39px;
+  }
+
+  .discount-title{
+  font-weight: 600;
+font-size: 27px;
+margin: 0 0 28px;
+text-align: center;
+
+  }
+  input{
+width: 508px;
+height: 70px;
+background: rgba(58, 134, 255, 0.2);
+border-radius: 12px;
+border: none;
+margin: 0 0 12px;
+  }
+
+  input::placeholder{
+    color: #2203E4;
+    padding-left: 24px;
+  }
+
+  footer{
+    margin-bottom: 103px;
   }
