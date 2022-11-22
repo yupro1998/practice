@@ -281,6 +281,15 @@ h2{
   position: relative;
  
   }
+  .who-text,
+  .who{
+    color: white;
+  }
+  .white{
+    color: white;
+font-weight: 400;
+    text-align: center;
+  }
   .students{
     display: flex;
     flex-direction: row;
@@ -397,3 +406,134 @@ margin: 0 auto;
     margin: 12px;
     color: #575757;
    }
+
+   .fourth-block{
+  display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: start;
+	background: #FFBE0B;
+  padding-top: 67px;
+   }
+
+   .opinions {
+    margin-bottom: 12px;
+  }
+  .opinion-text {
+    margin: 0 0 42px 0;
+    color: #575757;
+    text-align: center;
+  }
+
+  .feedback-wrap{
+    display: flex;
+    flex-wrap: nowrap;
+    
+  }
+
+  .window{
+    width: 702px;
+    height: 230px;
+    max-height: 230px;
+    background-color: white;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    
+    
+  }
+  .opinions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background: #FFBE0B;
+  }
+  
+  .opinion-title {
+    margin: 67px 0 12px 0;
+  }
+  .opinions-text {
+    margin: 0 0 42px 0;
+    color: #575757;
+    max-width: 611px;
+    text-align: center;
+  }
+  .feedbacks-list {
+    display: flex;
+    margin-bottom: 67px;
+    height: 230px;
+    max-width: 1500px;
+    
+  }
+  .feedback-item {
+    width: 700px;
+    height: 230px;
+    background: #F3F3F3;
+    margin: 0 16px;
+    box-shadow: 4px 4px 22px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    
+  }
+    
+  .ba{
+    height: 230px;
+  }
+  .jones-title::before{
+    content: url('../img/cloud.png');
+  }
+  
+
+  .jones{
+    display: inline-block;
+  }
+    
+  .stars{
+    display: inline-block;
+  }
+  .feed-content{
+    padding-left: 16px;
+    padding-top: 60px;
+  }
+  .ceo{
+    margin: 0 auto;
+    font-size: 21px;
+    font-weight: 500;
+    padding-left: 60px;
+  }
+  .ceo-text{
+    margin: 12px 0;
+    padding-left: 60px;
+  }
+
+  .buy-now {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  .buy-now > .title {
+    margin: 90px 0 12px 0;
+  }
+  .buy-text{
+    color: #575757;
+  }
+  .product-content{
+    display: flex;
+  }
+  .product-block{
+    display: flex;
+    flex-direction: column;
+  }
+  .stars{
+    display: flex;
+  }
+  .review{
+    margin: 0;
+  }
+  .product-title{
+    margin: 0;
+    color: #2203E4;
+    font-size: 36px;
+
+  }
