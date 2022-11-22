@@ -265,78 +265,56 @@ h2{
   .second-block{
    background-color: #0062FF;
    padding-top: 71px;
-   padding-bottom: 174px;
+   padding-bottom: 81px;
+   
   }
 
   .who-icons{
-    display: flex;
+  display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
 	margin-bottom: 64px;
   margin-top: 64px;
- padding-right: 536px;
+ margin-right: 123px;
   position: relative;
  
   }
+  .students{
+    display: flex;
+    flex-direction: row;
+  }
+  .student-content{
+    display: block;
+    margin-left: 34px;
+  }
+  .agency{
+    display: flex;
+  }
+  .agency-content{
+    display: block;
+    margin-left: 34px;
+  }
 
+  .freelancers{
+    display: flex;
+  }
+
+  .free-content{
+display: block;
+margin-left: 34px;
+  }
+
+
+ .marketers{
+  display: flex;
+ }
+ .marketers-content{
+  display: block;
+  margin-left: 34px;
+ }
  
-  .students-head{
-    color: white;
-    position: absolute;
-    top: 11px;
-    left: 429px;
-  }
-  .students-text{
-    color: white;
-    position: absolute;
-    top: 44px;
-    left: 429px;
-  }
-
-  .agency-head{
-    color: white;
-    position: absolute;
-    top: 189px;
-    left: 429px;
-  }
-  
-  .agency-text{
-    color: white;
-    position: absolute;
-    top: 220px;
-    left:  429px;
-  }
-
-
-    .lancers-head{
-      color: white;
-      position: absolute;
-      top:7px;
-      left: 1108px;
-    }
-    
-    .lancers-text{
-      color: white;
-      position: absolute;
-      top: 44px;
-      left: 1108px;
-    }
-
-    .marketers-head{
-      color: white;
-      position: absolute;
-      top: 189px;
-      left: 1108px;
-    }
-
-    .marketers-text{
-      color: white;
-      position: absolute;
-      top:  220px;
-      left: 1108px;
-    }
     .agency{
       margin: 46px 0 auto;
 
@@ -346,3 +324,76 @@ h2{
       margin: 46px 0 auto;
       
     }
+    .button-want{
+      display: flex;
+      justify-content: center;
+      
+    }
+
+    .i-want{
+      width: 105px;
+      height: 40px;
+      border: none;
+      color: #2203E4;
+      
+    }
+
+    .third-block{
+  display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	background: white;
+	height: auto;
+  background-color:  #E5E5E5;
+  padding-top: 63px;
+    }
+
+    .check-content{
+  display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	margin: 45px 0 130px 0;
+    }
+    .check-wrap{
+  display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	max-width: 611px;
+  margin-right: 48px;
+  
+    }
+    .movie{
+      position: relative;
+    }
+    .play{
+      position: absolute;
+      top: 119px;
+      right: 197px;
+    }
+   
+   .check-demo{
+padding: 0px;
+font-size: 36px;
+font-weight: 600;
+margin: 0 auto;
+   }
+   .demo-text{
+    padding-top: 12px;
+    color: #575757;
+    margin: 0 auto;
+   }
+
+   .watch-headers{
+    text-align: center;
+    font-size: 21px;
+    font-weight: 500;
+   }
+
+   .video-text{
+    text-align: center;
+    margin: 12px;
+    color: #575757;
+   }
