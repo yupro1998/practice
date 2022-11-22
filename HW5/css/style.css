@@ -460,9 +460,12 @@ margin: 0 auto;
   }
   .feedbacks-list {
     display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 67px;
     height: 230px;
     max-width: 1500px;
+    overflow: hidden;
     
   }
   .feedback-item {
@@ -478,18 +481,21 @@ margin: 0 auto;
   .ba{
     height: 230px;
   }
+  
+
   .jones-title::before{
     content: url('../img/cloud.png');
   }
   
+  .jones-stars{
+    display: flex;
+  }
 
-  .jones{
-    display: inline-block;
+  .stars-first{
+    padding-left: 7px;
+    padding-top: 15px;
   }
-    
-  .stars{
-    display: inline-block;
-  }
+
   .feed-content{
     padding-left: 16px;
     padding-top: 60px;
@@ -503,6 +509,7 @@ margin: 0 auto;
   .ceo-text{
     margin: 12px 0;
     padding-left: 60px;
+    color: #575757;
   }
 
   .buy-now {
