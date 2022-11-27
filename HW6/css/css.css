@@ -1,0 +1,242 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+	flex-direction: column;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color:  #F8FAF8;
+    overflow-x: hidden;
+   
+}
+main{
+    
+    background-image: url('../img/background.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-attachment: scroll, local;
+    background-position-y: 120px;
+    position: relative;
+    width: 100%;
+}
+
+.rectangle{
+    position: absolute;
+    top: 521px;
+}
+
+.container{
+    
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 120px;
+    
+}
+
+
+.header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 80%;
+    max-width: 1200px;
+    height: 115px;
+	justify-content: space-between;
+    padding-bottom: 44px;
+    padding-top: 48px;
+    padding-left: 120px;
+    margin: 0 auto;
+    
+
+}
+
+section{
+    padding-bottom: 72px;
+}
+
+.nav-block{
+    display: flex;
+}
+
+.nav-item{
+    margin: 0 40px;
+    text-decoration: none;
+    
+}
+
+.home{
+    color: #BC436A;
+    font-weight: 800;
+    font-size: 16px;
+}
+.home:hover{
+    color: rgb(255, 0, 140);
+}
+
+.option{
+    color: #776677;
+    font-weight: 400;
+    font-size: 16px;
+}
+.option:hover{
+    color: #ff39bd;
+}
+
+.book{
+    background-color: #386E41;
+    color: white;
+    width: 102px;
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    
+}
+.book:hover{
+    color: rgb(253, 1, 98);
+}
+
+.menu{
+    padding-top: 13px;
+}
+
+.logo{
+    text-decoration: none;
+    color: #BC436A;
+}
+
+
+
+.image{
+    position: absolute;
+    top:10px;
+    bottom: 10px;
+}
+
+
+.select-block{
+display:flex;
+align-items: center;
+width: 1200px;
+height: 100px;
+background-color: #386E41;
+border-radius: 8px;
+}
+
+.select-menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0px;
+}
+
+.select-menu{
+    margin-left: 38px;
+
+   
+}
+
+.search{
+    background-color: #BC436A;
+    text-decoration: none;
+    color: white;
+    width: 145px;
+    height: 41px;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 400;
+     padding-top: 10px;
+     margin-right: 33px;
+     border-radius: 4px;
+
+}
+
+.search:hover{
+    color: #640344;
+}
+
+select{
+    background-color: transparent;
+    color: white;
+    width: 253px;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-block-width: thin;
+    margin-right: 75px;
+}
+
+option{
+    background-color:transparent;
+    color: black;
+}
+
+span{
+    color: #BC436A;
+}
+
+p{
+    color: #7A7A7A;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0;
+    padding-bottom: 54px;
+}
+
+h3{
+font-weight: 800;
+font-size: 36px;
+margin: 0;
+padding-bottom: 23px;
+}
+
+.best-place{
+padding-top: 150px;
+}
+
+.where{
+    padding-top: 229px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.arrow-txt{
+    display: flex;
+}
+.arrow{
+    width: 8px;
+    height: 14px;
+    margin-left: 36px;
+    margin-top: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 47px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destiny{
+    margin: 0;
+    padding-bottom: 20px;
+}
+.arrow-bot{
+    width: 12px;
+    height: 7px;
+}
+
